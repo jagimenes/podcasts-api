@@ -17,8 +17,10 @@
 - Access the folder
 - Configure .env with the params (whe have a .env.example to use as reference)
 - If you not configure any access_tokens, the application you generate a dinamically one and drop to the console
+- The token needs to be sent in the header params (authorization)
 - Execute command npm install
 - Execute command npm run start
+
 
 ## Start instructions (Using Docker)
 - Make sure you have Docker installed
@@ -26,4 +28,11 @@
 - Access the folder
 - Configure .env with the params (whe have a .env.example to use as reference)
 - If you not configure any access_tokens, the application you generate a dinamically one and drop to the console
+- The token needs to be sent in the header params (authorization)
 - Execute command docker-compose up
+
+## If you want to test the running application
+- Configure the access to https://podcasts-api-production.up.railway.app/best_podcasts
+- Use this token: 10b6e7ac-9368-4720-b08e-90b4b86c37d8
+
+## Have fun !
